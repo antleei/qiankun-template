@@ -1,0 +1,18 @@
+{
+  "name": "qiankun-template",
+  "version": "0.0.1",
+  "private": true,
+  "author": "",
+  "description": "微前端模版",
+  "keywords": [],
+  "scripts": {
+    "dev": "pnpm -r --parallel dev",
+    "build": "pnpm -r --parallel build",
+    "preview": "pnpm -r --parallel preview",
+    "clean": "rm -rf node_modules **/*/node_modules",
+    "up": "taze major -r -I"
+  },
+  "dependencies": {
+    "taze": "^0.8.4"
+  }
+}
