@@ -3,8 +3,8 @@ interface HostMap {
 }
 
 const map: HostMap = {
-  '//localhost:9001/': '//cyoo.cn/app1/',
-  '//localhost:9002/': '//cyoo.cn/app2/',
+  '//localhost:9001/': '/apps/app1/',
+  '//localhost:9002/': '/apps/app2/',
 }
 
 export default function hostMap(host: string) {

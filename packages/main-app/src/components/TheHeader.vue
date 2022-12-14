@@ -5,13 +5,13 @@
 <template>
   <header h-15 px-5 border="b gray-300" flex="~" items-center justify-between>
     <div flex="~" gap-5>
-      <RouterLink to="/">
+      <RouterLink to="/" active-class="color-purple-500">
         主应用
       </RouterLink>
-      <RouterLink to="/app1">
+      <RouterLink to="/app1" active-class="color-purple-500">
         app1
       </RouterLink>
-      <RouterLink to="/app2">
+      <RouterLink to="/app2" active-class="color-purple-500">
         app2
       </RouterLink>
     </div>

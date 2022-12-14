@@ -1,3 +1,5 @@
+import hostMap from '~/utils/hostMap'
+
 export interface microApp {
   name: string
   entry: string
@@ -9,14 +11,14 @@ export interface microApp {
 export const apps: microApp[] = [
   {
     name: 'app1',
-    entry: '//localhost:9001',
+    entry: hostMap('//localhost:9001/'),
     container: '#micro-app',
     activeRule: '/app1',
     port: '9001',
   },
   {
     name: 'app2',
-    entry: '//localhost:9002',
+    entry: hostMap('//localhost:9002/'),
     container: '#micro-app',
     activeRule: '/app2',
     port: '9002',

@@ -7,7 +7,7 @@ import {
     qiankunWindow,
     QiankunProps
 } from "vite-plugin-qiankun/dist/helper"
-import './style.css'
+import './style.less'
 
 let app: AppType;
 
